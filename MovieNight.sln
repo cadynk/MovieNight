@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNight", "MovieNight\MovieNight.csproj", "{7212F502-CB9A-4180-871E-5AA72C713729}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNight.Client", "MovieNight\MovieNight.Client.csproj", "{7212F502-CB9A-4180-871E-5AA72C713729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNight.Library", "MovieNight.Library\MovieNight.Library.csproj", "{77C973E2-342D-4CB1-B75E-6515D4176B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNight.Tests", "MovieNight.Tests\MovieNight.Tests.csproj", "{BF139651-B2FC-4BA4-A0FE-E862F7DA8A8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7212F502-CB9A-4180-871E-5AA72C713729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7212F502-CB9A-4180-871E-5AA72C713729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7212F502-CB9A-4180-871E-5AA72C713729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C973E2-342D-4CB1-B75E-6515D4176B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C973E2-342D-4CB1-B75E-6515D4176B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C973E2-342D-4CB1-B75E-6515D4176B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C973E2-342D-4CB1-B75E-6515D4176B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF139651-B2FC-4BA4-A0FE-E862F7DA8A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF139651-B2FC-4BA4-A0FE-E862F7DA8A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF139651-B2FC-4BA4-A0FE-E862F7DA8A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF139651-B2FC-4BA4-A0FE-E862F7DA8A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
