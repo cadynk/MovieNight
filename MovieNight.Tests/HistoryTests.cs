@@ -15,14 +15,22 @@ namespace MovieNight.Tests
         {
             var expected = typeof(Guid);
             var sut = new History();
-            var actual =sut.Id;
+            var actual = sut.Id;
 
             Assert.True(expected == actual.GetType());
         }
-    }
 
-    public void Test_HistoryMovieList()
-    {
-        
+        [Fact]
+        public void Test_HistoryMovieList()
+        {
+            // testing if there's anything in the movie list
+            var expected = 1;
+            var sut = new History();
+            // we will need to create a method MovieList in the History class
+            var actual = sut.MovieList;
+
+            Assert.True(typeof(List<Movie>) == actual.GetType());
+            Assert.True(expected <= actual.Count);
+        }
     }
 }

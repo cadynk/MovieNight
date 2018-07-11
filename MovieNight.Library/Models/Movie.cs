@@ -7,6 +7,15 @@ namespace MovieNight.Library.Models
 {
     public class Movie : AModel
     {
+        public List<Person> MovieActorList
+        {
+            get;
+            set;
+        }
 
+        public Movie()
+        {
+            MovieActorList = new List<Person>() {new Person()};
+        }
     }
 }
